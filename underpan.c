@@ -12,7 +12,7 @@ void underpan_roll(float x,float y)
         angle=atan(y/x);//得到转角的基准值
         angle=angle/(2*pi)*8192;
         //以下通过转角的基准值得到最终需转动的角度
-        if(x>0&&y>0)
+        if(x>0&&y>0)///cxxx
         {
             angle=angle;
         }
